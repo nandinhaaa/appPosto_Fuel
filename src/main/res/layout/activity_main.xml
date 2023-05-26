@@ -98,7 +98,7 @@
         android:layout_marginTop="24dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonCalcular"
-        app:srcCompat="@tools:sample/avatars" />
+        app:srcCompat="@drawable/gas"/>
 
     <ImageView
         android:id="@+id/imageViewShare"
@@ -109,7 +109,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/textViewMessage"
         app:layout_constraintVertical_bias="0.482"
-        app:srcCompat="@drawable/share" />
+        app:srcCompat="@drawable/share"
+        android:onClick="shareClick"
+        />
 
     <TextView
         android:id="@+id/textViewMessage"
